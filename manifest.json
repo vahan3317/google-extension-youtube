@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Example EXtension 2 ",
+    "author": "Vahan",
+    "version": "1.0.1",
+    "description": "Replace new English word",
+    "content_scripts": [{
+        "matches": ["https://www.youtube.com/"],
+        "js": ["initial.js"]
+    }],
+
+    "chrome_url_overrides": {
+
+    }
+
+}
